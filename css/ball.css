@@ -1,0 +1,324 @@
+.ball1{
+    width: 12vw;
+    height: 12vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+    z-index: 0;
+    filter: blur(0.2px);
+}
+.ball2{
+    width: 2vw;
+    height: 2vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 83vh;
+    left: 25vw;
+    z-index: 0;
+    filter: blur(3px);
+    
+}
+
+.ball3{
+    width: 6vw;
+    height: 6vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 86vh;
+    left: 10vw;
+    z-index: 0;
+    filter: blur(0.5px);
+}
+
+.ball4{
+    width: 4vw;
+    height: 4vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 67vh;
+    left: 20vw;
+    z-index: 0;
+    filter: blur(1px);
+}
+
+.ball5{
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 95vh;
+    left: 35vw;
+    z-index: 0;
+    filter: blur(3px);
+    
+}
+
+.ball6{
+    width: 6vw;
+    height: 6vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 25vh;
+    right: 10vw;
+    z-index: 0;
+    filter: blur(2px);
+}
+
+.ball7{
+    width: 4.5vw;
+    height: 4.5vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 50vh;
+    right: 35vw;
+    z-index: 0;
+    filter: blur(2.5px);
+}
+
+.ball8{
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 50vh;
+    right: 15vw;
+    z-index: 0;
+    filter: blur(2px);
+}
+
+.ball9{
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 75vh;
+    right: 20vw;
+    z-index: 0;
+    filter: blur(4px);
+}
+
+.ball10{
+    width: 8vw;
+    height: 8vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 85vh;
+    right: 25vw;
+    z-index: 0;
+    filter: blur(1px);
+}
+
+.ball11{
+    width: 4vw;
+    height: 4vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 100vh;
+    right: 40vw;
+    z-index: 0;
+    filter: blur(1.5px);
+}
+
+.ball12{
+    width: 2vw;
+    height: 2vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 110vh;
+    right: 45vw;
+    z-index: 0;
+    filter: blur(1px);
+}
+
+.ball13{
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 145vh;
+    right: 35vw;
+    z-index: 0;
+    filter: blur(3.5px);
+}
+
+.ball14{
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 160vh;
+    left: 45vw;
+    z-index: 0;
+    filter: blur(2px);
+}
+
+.ball15{
+    width: 4vw;
+    height: 4vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 185vh;
+    right: 23vw;
+    z-index: 0;
+    filter: blur(1.3px);
+}
+
+.ball16{
+    width: 6.5vw;
+    height: 6.5vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 203vh;
+    right: 27vw;
+    z-index: 0;
+    filter: blur(2px);
+}
+
+.ball17{
+    width: 12vw;
+    height: 12vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 215vh;
+    right: 5vw;
+    z-index: 0;
+    filter: blur(1px);
+}
+
+.ball18{
+    width: 9vw;
+    height: 9vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 235vh;
+    right: 16vw;
+    z-index: 0;
+}
+
+.ball19{
+    width: 2vw;
+    height: 2vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 265vh;
+    right: 25vw;
+    z-index: 0;
+    filter: blur(1px);
+}
+
+.ball20{
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 280vh;
+    right: 45vw;
+    z-index: 0;
+    filter: blur(1.7px);
+}
+
+.ball21{
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 235vh;
+    left: 15vw;
+    z-index: 0;
+    filter: blur(3.5px);
+}
+
+.ball22{
+    width: 8vw;
+    height: 8vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 255vh;
+    left: 5vw;
+    z-index: 0;
+    filter: blur(0.8px);
+}
+
+.ball23{
+    width: 4vw;
+    height: 4vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 268vh;
+    left: 15vw;
+    z-index: 0; 
+    filter: blur(1.5px);
+}
+
+.ball24{
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 215vh;
+    left: 13vw;
+    z-index: 0; 
+    filter: blur(5px);
+}
+
+.ball25{
+    width: 1.3vw;
+    height: 1.3vw;
+    background-color: white;
+    border: solid 0.5px #655554;
+    border-radius: 50%;
+    position: absolute;
+    top: 220vh;
+    left: 40vw;
+    z-index: 0;
+    filter: blur(3px); 
+}

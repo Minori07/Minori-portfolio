@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-image: url(../images/back.png);
+    background-size: 100%;
+    background-position: top center;
+    color: #655554;
+    position: relative;
+    font-family: 'Gurmukhi MN',sans-serif;
+}
+
+h1,h2,h3{
+    font-weight: lighter;
+}
+.work{
+    margin: 10vh 20vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.work img{
+    width: 25vw;
+}
+.mac img{
+    width: 30vw;
+}
+
+.white{
+    background-color: rgb(255,255,255,0.3);
+    padding: 1vw 5vw;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.1);
+    font-family: 'TsukuBRdGothic-Regular',sans-serif;
+}
+
+.return{
+    position: fixed;
+    top: 30vh;
+    left: 5vw;
+    z-index: 1;
+}
+
+.return img{
+    width: 5vw;
+    height: 13vw;
+}
+.screen img{
+    width: 14vw;
+}
+.mac img{
+    width: 29vw;
+}
+
+.work_about{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+}
