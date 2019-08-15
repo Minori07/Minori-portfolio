@@ -119,9 +119,81 @@ a{
     font-size: 2.2vw;
 }
 
-.top_logo{
+.logo{
     z-index: 3;
     width: 15vw;
+}
+
+.path {
+    stroke: #655554;
+    fill: none;
+    stroke-width: 3;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: DASH 3s ease-in alternate forwards;
+    -webkit-animation: DASH 3s ease-in 0s forwards;
+    -o-animation: DASH 3s ease-in 0s forwards;
+    animation: DASH 3s ease-in 0s forwards;
+}
+@keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+    70%{
+        fill:transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: #655554;
+    }
+}
+@-moz-keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+    70%{
+        fill:transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: #655554;
+    }
+}
+@-webkit-keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+    70%{
+        fill:transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: #655554;
+    }
+}
+@-o-keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+    70%{
+        fill:transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: #655554;
+    }
+}
+@-ms-keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+    70%{
+        fill:transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: #655554;
+    }
 }
 
 .left{
@@ -243,7 +315,7 @@ h3{
     height: 11.5vw;
 }
 
-svg {
+.aquarium {
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -261,15 +333,6 @@ svg {
     justify-content: space-between;
 }
 
-
-.aquarium{
-    /* background-color: rgb(172,208,192,0.5); */
-    background-color: white;
-    border: solid 1px lightgray;
-    width: 8vw;
-    height: 8vw;
-    z-index: 3;
-}
 .w_boxs{
     display: flex;
     flex-wrap: wrap;
