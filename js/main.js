@@ -63,6 +63,8 @@ var right_color=$('#right_color');
 
 $(function(){
 
+  $('html,body').animate({ scrollTop: 0,scrollLeft: 0 }, '1');
+
       
     // #で始まるアンカーをクリックした場合に処理
     $('a[href^="#"]').click(function() {
@@ -75,7 +77,10 @@ $(function(){
        // 移動先を数値で取得
        var position = target.offset().top;
        // スムーススクロール
-       $('body,html').animate({scrollTop:position}, speed, 'swing');
+       $('body,html').animate({scrollTop:position, scrollLeft:0}, speed, 'swing');
+       $('.work').addClass('none');
+      $('.return').css({"position": 'absolute'});
+      $('.return').css({"left": '105vw'});
        return false;
     });
 
@@ -99,20 +104,37 @@ $(function(){
             $("#drop_nav").css({"visibility": 'hidden'});
 		}
     });
+
+    $('#works a[href^="#"]').click(function() {
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      target.removeClass('none');
+      $('.return').css({"position": 'fixed'});
+      $('.return').css({"left": '5vw'})
+      var $anchor = $(this);
+      $('html, body').stop().animate({
+        scrollLeft: $($anchor.attr('href')).offset().left
+      }, 500);
+      var position = target.offset().top;
+       // スムーススクロール
+       $('body,html').animate({scrollTop:position}, 500);
+      event.preventDefault();
+   });
     
-    // $(function() {
-    //     $('#works a').bind('click', function(event) {
-    //       var $anchor = $(this);
-    //       /*
-    //       if you want to use one of the easing effects:
-    //       $('html, body').stop().animate({
-    //           scrollLeft: $($anchor.attr('href')).offset().left
-    //       }, 1500,'easeInOutExpo');
-    //        */
-    //       $('html, body').stop().animate({
-    //         scrollLeft: $($anchor.attr('href')).offset().left
-    //       }, 1000);
-    //       event.preventDefault();
-    //     });
-    //   });
+   $('.return').click(function() {
+      $('.work').addClass('none');
+      $('.return').css({"position": 'absolute'});
+      $('.return').css({"left": '105vw'});
+      var $anchor = $(this);
+      $('html, body').stop().animate({
+        scrollLeft: $($anchor.attr('href')).offset().left
+      }, 500);
+      var position = $('#works').offset().top;
+      $('body,html').animate({scrollTop:position}, 500);
+      event.preventDefault();
+    });
+
  });

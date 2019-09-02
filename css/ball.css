@@ -1,3 +1,6 @@
+.balls{
+    display: none;
+}
 .ball1{
     width: 12vw;
     height: 12vw;
@@ -321,4 +324,99 @@
     left: 40vw;
     z-index: 0;
     filter: blur(3px); 
+}
+
+
+.sq1{
+    position: absolute;
+    width: 60vw;
+    height: 100vh;
+    top: -30vh;
+    right: 0;
+    background-color: #a2d1be;
+    opacity: 0.6;
+}
+
+.sq2{
+    position: absolute;
+    width: 65vw;
+    height: 100vh;
+    top: 10vh;
+    right: 30vw;
+    background-color: #3f3736;
+    opacity: 0.5;
+}
+
+.sq3{
+    position: absolute;
+    width: 30vw;
+    height: 90vh;
+    top: 90vh;
+    right: 10vw;
+    background-color: #d9f0f2;
+    opacity: 0.7;
+    z-index: -2;
+}
+
+.sq4{
+    position: absolute;
+    width: 60vw;
+    height: 2vh;
+    top: 90vh;
+    left: 0;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.sq5{
+    position: absolute;
+    width: 65vw;
+    height: 120vh;
+    top: 110vh;
+    left: 0;
+    background-color: #a2d1be;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.sq6{
+    position: absolute;
+    width: 65vw;
+    height: 80vh;
+    top: 200vh;
+    right: 10vw;
+    background-color: white;
+    opacity: 0.2;
+}
+
+.sq7{
+    position: absolute;
+    width: 80vw;
+    height: 35vh;
+    top: 190vh;
+    right: -40vw;
+    background-color: #3f3736;
+    opacity: 0.6;
+}
+
+.sq8{
+    position: absolute;
+    width: 65vw;
+    height: 90vh;
+    top: 110vh;
+    left: 120vw;
+    background-color: #a2d1be;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.sq9{
+    position: absolute;
+    width: 45vw;
+    height: 80vh;
+    top: 150vh;
+    left: 150vw;
+    background-color: #d9f0f2;
+    opacity: 0.8;
+    z-index: -2;
 }

@@ -254,7 +254,7 @@ a{
     z-index: 2;
 }
 .back_img{
-    background-image: url(../images/back.png);
+    /* background-image: url(../images/back.png); */
     background-size: 100%;
     background-position: top center;
     position: relative;
@@ -270,6 +270,7 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+
 h2,h3,.about p,.contact a,.works img,.skill img, .me img{
     z-index: 1;
     box-shadow: 0px 5px 10px rgba(0,0,0,.1);
@@ -305,9 +306,10 @@ h3{
 .me p{
     display: flex;
     align-items: center;
-    background-color: rgb(255,255,255,0.3);
+    background-color: #f2f2f2;
+    opacity: 0.75;
     padding: 30px;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 
 .me img{
@@ -346,7 +348,7 @@ h3{
     transition: all 0.3s ease 0s;
 }
 
-.mac img{
+.w_mac img{
     width: 10vw;
     height: 8vw;
 }
@@ -375,7 +377,8 @@ h3{
 .contact a{
     display: flex;
     align-items: center;
-    background-color: rgb(255,255,255,0.3);
+    background-color: #f2f2f2;
+    opacity: 0.7;
     height: 11.5vw;
     padding: 0vw 7vw;
     font-size: 1.4vw;
@@ -395,4 +398,8 @@ h3{
     transition: all 0.3s ease 0s;
     display: flex;
     align-items: center;
+}
+
+.main{
+    display: flex;
 }
